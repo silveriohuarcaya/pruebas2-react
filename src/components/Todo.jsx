@@ -13,7 +13,9 @@ const Todo = ({ id, text, isCompleted, onClick }) => {
       <button type="button" onClick={handleClick}>
         {isCompleted ? 'v' : 'x'}
       </button>
-      <button type="button" onClick={handleEliminar} >Eliminar</button>
+      <button type="button" onClick={handleEliminar}>
+        Eliminar
+      </button>
     </li>
   )
 }
