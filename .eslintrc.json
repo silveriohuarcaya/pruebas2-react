@@ -25,6 +25,7 @@
     ],
     "prettier/prettier": "warn",
     "react/prop-types": "off",
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "no-console": "off"
   }
 }
