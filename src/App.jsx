@@ -73,4 +73,4 @@ const { title, protagonist } = info
 const { name: protagonistname, enemies } = protagonist
 const [, , peter] = enemies
 const { name: nombres, title: titulos } = peter
-console.log('silverio', title, protagonistname, nombres, titulos)
+console.log('silverio ', title, protagonistname, nombres, titulos)
